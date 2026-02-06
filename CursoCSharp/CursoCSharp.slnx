@@ -1,0 +1,15 @@
+<Solution>
+  <Project Path="CicloDoWhile/CicloDoWhile.csproj" Id="c2c02e5e-0b30-4e72-854b-55c651a2e922" />
+  <Project Path="CicloFor/CicloFor.csproj" Id="5e865273-1a45-4d13-9fe7-ce29f27d240a" />
+  <Project Path="Classes&amp;Objects/Classes.csproj" Id="b8991b29-4cc9-49aa-9b87-34d43864417a" />
+  <Project Path="ControlDeFlujo/ControlDeFlujoIf.csproj" />
+  <Project Path="ControlDeFlujoSwitch/ControlDeFlujoSwitch.csproj" Id="76bcea73-0e0a-4aa6-b97f-3388edb03ca2" />
+  <Project Path="DataStructureArray/DataStructureArray.csproj" Id="463d91ff-5bee-40f1-a630-8d4aa99fb983" />
+  <Project Path="Funciones/Funciones.csproj" />
+  <Project Path="Herencia/Herencia.csproj" Id="80c477c8-bd79-44fa-91dd-1e06d25d14fa" />
+  <Project Path="ManejoDeCiclos/CicloWhile.csproj" Id="179c086d-9192-4866-b606-729c1974064e" />
+  <Project Path="Overloading/Overloading.csproj" Id="381bc7d3-4c27-4aa4-80cc-38d257bb8f31" />
+  <Project Path="Overriden/Overriden.csproj" Id="8ccb9d53-dc2d-44fb-a496-5010470e6280" />
+  <Project Path="Propiedades/Propiedades.csproj" Id="cf80a0d8-5db3-42fd-89e6-d99c6a62cafb" />
+  <Project Path="TipoDeDatos/TipoDeDatos.csproj" />
+</Solution>
