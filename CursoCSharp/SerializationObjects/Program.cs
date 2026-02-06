@@ -28,6 +28,7 @@ namespace SerializationObjects
                 Brand = "Modelo"
             };
 
+            //Serializacion: From C# class to Json 
             // Convertir un objeto C# a JSON
             string json = JsonSerializer.Serialize(beer);
             Console.WriteLine(json);
@@ -46,6 +47,10 @@ namespace SerializationObjects
 
             string jsonBeers = JsonSerializer.Serialize(beers);
             Console.WriteLine(jsonBeers);
+
+            // DeSerializacion: From Json to C# Object
+            Beer newBeer = JsonSerializer.Deserialize<Beer>(json);
+            Beer[] newBeers = JsonSerializer.Deserialize<Beer[]>(jsonBeers);
         }
     }
 }
