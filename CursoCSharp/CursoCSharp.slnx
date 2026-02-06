@@ -7,10 +7,12 @@
   <Project Path="DataStructureArray/DataStructureArray.csproj" Id="463d91ff-5bee-40f1-a630-8d4aa99fb983" />
   <Project Path="Funciones/Funciones.csproj" />
   <Project Path="Herencia/Herencia.csproj" Id="80c477c8-bd79-44fa-91dd-1e06d25d14fa" />
+  <Project Path="JsonFormat/JsonFormat.csproj" Id="a8be53f7-730d-4683-80f7-07fb9528c0b7" />
   <Project Path="ManejoDeCiclos/CicloWhile.csproj" Id="179c086d-9192-4866-b606-729c1974064e" />
   <Project Path="Overloading/Overloading.csproj" Id="381bc7d3-4c27-4aa4-80cc-38d257bb8f31" />
   <Project Path="Overriden/Overriden.csproj" Id="8ccb9d53-dc2d-44fb-a496-5010470e6280" />
   <Project Path="Propiedades/Propiedades.csproj" Id="cf80a0d8-5db3-42fd-89e6-d99c6a62cafb" />
+  <Project Path="SerializationObjects/SerializationObjects.csproj" Id="956c5c36-cf28-4753-a43f-023be3e9c435" />
   <Project Path="Static/Static.csproj" Id="7cf87099-5d93-4a8b-8eff-3c0a45c42a0f" />
   <Project Path="TipoDeDatos/TipoDeDatos.csproj" />
 </Solution>
