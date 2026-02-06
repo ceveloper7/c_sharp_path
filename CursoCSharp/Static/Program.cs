@@ -26,6 +26,7 @@ namespace Static {
 
         public static string GetCount()
         {
+            // Interpolacion de string
             return $"Esta clase se ha utilizado {count} veces";
         }
     }
