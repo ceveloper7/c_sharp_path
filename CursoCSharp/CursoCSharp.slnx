@@ -6,6 +6,7 @@
   <Project Path="ControlDeFlujo/ControlDeFlujoIf.csproj" />
   <Project Path="ControlDeFlujoSwitch/ControlDeFlujoSwitch.csproj" Id="76bcea73-0e0a-4aa6-b97f-3388edb03ca2" />
   <Project Path="DataStructureArray/DataStructureArray.csproj" Id="463d91ff-5bee-40f1-a630-8d4aa99fb983" />
+  <Project Path="Exceptions/Exceptions.csproj" Id="b28740c7-48b3-4772-9822-a7be02bcd823" />
   <Project Path="ForEach/ForEach.csproj" Id="cb8a849e-0db3-4d6a-ab46-ec193385141f" />
   <Project Path="Funciones/Funciones.csproj" />
   <Project Path="Herencia/Herencia.csproj" Id="80c477c8-bd79-44fa-91dd-1e06d25d14fa" />
