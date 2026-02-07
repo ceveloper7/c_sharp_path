@@ -12,6 +12,7 @@
   <Project Path="Funciones/Funciones.csproj" />
   <Project Path="Herencia/Herencia.csproj" Id="80c477c8-bd79-44fa-91dd-1e06d25d14fa" />
   <Project Path="JsonFormat/JsonFormat.csproj" Id="a8be53f7-730d-4683-80f7-07fb9528c0b7" />
+  <Project Path="LinQ/LinQ.csproj" Id="9fe8b4d4-bd4f-4232-84ab-0bd8f1047f9d" />
   <Project Path="Lists/Lists.csproj" Id="6f4b98cc-92c3-46f3-a95f-6261612d1a66" />
   <Project Path="ManejoDeCiclos/CicloWhile.csproj" Id="179c086d-9192-4866-b606-729c1974064e" />
   <Project Path="Overloading/Overloading.csproj" Id="381bc7d3-4c27-4aa4-80cc-38d257bb8f31" />
