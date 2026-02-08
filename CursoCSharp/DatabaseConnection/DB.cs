@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DatabaseConnection
 {
-    public class DB
+    public abstract class DB
     {
         private string _connectionString;
         protected SqlConnection _connection;
