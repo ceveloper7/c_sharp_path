@@ -12,6 +12,16 @@ namespace DatabaseConnection
 
         }
 
+        public void delete(int id) {
+            Connect();
+            string query = "DELETE FROM beer WHERE id = @id";
+            SqlCommand command = new SqlCommand(query, _connection);
+            command.Parameters.AddWithValue("id", id);
+            command.ExecuteNonQuery();
+
+            Close();
+        }
+
         public void update(Beer beer) {
             Connect();
             string query = "UPDATE beer SET name=@name, brandId = @brandId WHERE id=@id";

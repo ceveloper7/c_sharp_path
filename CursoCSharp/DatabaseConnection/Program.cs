@@ -15,6 +15,25 @@ namespace DatabaseConnection
             Console.WriteLine();
         }
 
+        public static void deleteBeer(BeerDB beerDB)
+        {
+            Console.Clear();
+            getAllBeerData(beerDB);
+
+            Console.WriteLine("Delete beer information");
+            Console.WriteLine("Enter beer id to delete");
+            int beerId = int.Parse(Console.ReadLine());
+
+            Beer beer = beerDB.get(beerId);
+            if (beer != null) {
+                beerDB.delete(beerId);
+            }
+            else
+            {
+                Console.WriteLine("Beer doesnt exist");
+            }
+        }
+
         public static void updateBeer(BeerDB beerDB) {
             Console.Clear();
             getAllBeerData(beerDB);
@@ -93,6 +112,7 @@ namespace DatabaseConnection
                             updateBeer(beerDb);
                             break;
                         case 4:
+                            deleteBeer(beerDb);
                             break;
                         case 5:
                             again = false;
