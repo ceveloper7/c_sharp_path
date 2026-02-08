@@ -14,6 +14,36 @@ namespace DatabaseConnection
             Console.WriteLine("5. Exit from System");
             Console.WriteLine();
         }
+
+        public static void updateBeer(BeerDB beerDB) {
+            Console.Clear();
+            getAllBeerData(beerDB);
+
+            Console.WriteLine("Update beer information");
+            Console.WriteLine("Enter beer id");
+            int beerId = int.Parse(Console.ReadLine());
+
+            // podemos recuperar de la BD beer, si no existe retorna null, hay que manipular el null
+            Beer beer = beerDB.get(beerId);
+            if (beer != null)
+            {
+                Console.WriteLine("Enter beer name to update");
+                string name = Console.ReadLine();
+
+                Console.WriteLine("Enter beer brand id to update");
+                int brandId = int.Parse(Console.ReadLine());
+
+                beer.Name = name;
+                beer.BrandId = brandId;
+
+                beerDB.update(beer);
+            }
+            else
+            {
+                Console.WriteLine("Beer doesnt exist");
+            }
+        }
+
         public static void addBeer(BeerDB beerDB) {
             Console.Clear();
             Console.WriteLine("Add new Beer");
@@ -32,7 +62,7 @@ namespace DatabaseConnection
             Console.WriteLine("Getting all Beers from Database...");
             List<Beer> beers = beerDB.GetAll();
             foreach (Beer beer in beers)
-                Console.WriteLine($"Beer: {beer.Id}, {beer.Name}");
+                Console.WriteLine($"Beer id: {beer.Id}, Name: {beer.Name}, Brand id: {beer.BrandId}");
 
             Console.WriteLine();
         }
@@ -60,6 +90,7 @@ namespace DatabaseConnection
                             addBeer(beerDb);
                             break;
                         case 3:
+                            updateBeer(beerDb);
                             break;
                         case 4:
                             break;
