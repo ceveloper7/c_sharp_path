@@ -5,6 +5,7 @@
   <Project Path="CommonsListMethods/CommonsListMethods.csproj" Id="937ad645-3834-4a9d-a64b-a69b297d8058" />
   <Project Path="ControlDeFlujo/ControlDeFlujoIf.csproj" />
   <Project Path="ControlDeFlujoSwitch/ControlDeFlujoSwitch.csproj" Id="76bcea73-0e0a-4aa6-b97f-3388edb03ca2" />
+  <Project Path="DatabaseConnection/DatabaseConnection.csproj" Id="587f65b0-76f2-4a5b-9108-d15339192e45" />
   <Project Path="DataStructureArray/DataStructureArray.csproj" Id="463d91ff-5bee-40f1-a630-8d4aa99fb983" />
   <Project Path="Exceptions/Exceptions.csproj" Id="b28740c7-48b3-4772-9822-a7be02bcd823" />
   <Project Path="ExceptionsCustom/ExceptionsCustom.csproj" Id="a3f7a168-2a74-4398-a8bd-e51ef958e7a4" />
