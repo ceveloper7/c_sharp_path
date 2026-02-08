@@ -12,6 +12,18 @@ namespace DatabaseConnection
 
         }
 
+        public void Add(Beer beer) {
+            Connect();
+            string query = "INSERT INTO beer (name, brandId) VALUES(@name, @brandId)";
+            SqlCommand command = new SqlCommand(query, _connection);
+            command.Parameters.AddWithValue("@name", beer.Name);
+            command.Parameters.AddWithValue("@brandId", beer.BrandId);
+            // Execute sin obtener resultados
+            command.ExecuteNonQuery();
+
+            Close();
+        }
+
         public List<Beer> GetAll() {
             // abrimos una conexion a la BD
             Connect();

@@ -16,5 +16,10 @@ namespace DatabaseConnection
             Name = name;
             BrandId = brandId;
         }
+
+        public Beer(string name, int brandId) {
+            Name = name;
+            BrandId = brandId;
+        }
     }
 }
