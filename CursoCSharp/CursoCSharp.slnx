@@ -27,4 +27,5 @@
   <Project Path="TipoDeDatos/TipoDeDatos.csproj" />
   <Project Path="TiposAnonimos/TiposAnonimos.csproj" Id="405103cc-2999-45af-a832-3a77c232e57c" />
   <Project Path="Tuplas/Tuplas.csproj" Id="8d8c6a1e-d774-48c2-87c5-4868c06afe9c" />
+  <Project Path="WorkingWithEntityFramework/WorkingWithEntityFramework.csproj" Id="fe350c49-51f0-4d41-8d09-34485b75e0eb" />
 </Solution>
