@@ -20,6 +20,7 @@
   <Project Path="ManejoDeCiclos/CicloWhile.csproj" Id="179c086d-9192-4866-b606-729c1974064e" />
   <Project Path="Overloading/Overloading.csproj" Id="381bc7d3-4c27-4aa4-80cc-38d257bb8f31" />
   <Project Path="Overriden/Overriden.csproj" Id="8ccb9d53-dc2d-44fb-a496-5010470e6280" />
+  <Project Path="POOSample/POOSample.csproj" Id="513a2106-604b-4512-b400-a71d5e14b64a" />
   <Project Path="Propiedades/Propiedades.csproj" Id="cf80a0d8-5db3-42fd-89e6-d99c6a62cafb" />
   <Project Path="SaleSystemSample/SaleSystemSample.csproj" Id="de96d1d8-b1ea-4792-a27f-0a30e25a0dbb" />
   <Project Path="SerializationObjects/SerializationObjects.csproj" Id="956c5c36-cf28-4753-a43f-023be3e9c435" />
